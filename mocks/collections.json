@@ -1,0 +1,11 @@
+[
+  {
+    "id": "base",
+    "routes": ["get-users:success", "get-user:success"]
+  },
+  {
+    "id": "all-users",
+    "from": "base",
+    "routes": ["get-users:all", "get-user:id-3"]
+  }
+]
